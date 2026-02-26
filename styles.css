@@ -1,0 +1,48 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.cookie-popup {
+    position: fixed;
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+.close-button::after {
+    cursor: pointer;
+    position: absolute;
+    bottom: 25px;
+    left: 4px;
+    content: "\00d7";
+    font-size: 30px;
+}
+
+.close-button:hover {
+    color: rgb(189, 189, 189)
+}
+
+.cookie-popup p {
+    margin: 0;
+    padding: 0;
+}
+
+.accept-cookie {
+    cursor: pointer;
+    background-color: white;
+    padding: 10px 20px;
+}
+
+.accept-cookie:hover {
+    background-color: rgb(189, 189, 189)
+}
